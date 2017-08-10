@@ -1,0 +1,9 @@
+Nominative Masculine, ένας
+Nominative Feminine, μια
+Nominative Neuter, ένα
+Genitive Masculine, ενός
+Genitive Feminine, μιας
+Genitive Neuter, ενός
+Accusative Masculine, ένα(ν)
+Accusative Feminine, μια
+Accusative Neuter, ένα
