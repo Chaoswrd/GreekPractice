@@ -1,0 +1,6 @@
+I write, γράφω
+You(singular) write, γράφεις
+It writes, γράφει
+We write, γράφουμε
+You(plural) write, γράφετε
+They write, γράφουν

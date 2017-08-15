@@ -17,7 +17,6 @@ class LangSys {
     init() {
         let fl = FileImporter(lang: "greek")
         if let articleType = UserDefaults.standard.object(forKey: "articleType") {
-            print(articleType)
             langs = fl.setCategory(category: "\(articleType as! String)")
         }
         else{

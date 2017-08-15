@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="htc-gq-ryX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="htc-gq-ryX">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Category Selection-->
         <scene sceneID="QNc-n0-eV1">
             <objects>
                 <viewController id="JAL-Qe-yK1" customClass="SpinController" customModule="GreekPractice" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                                     <outlet property="delegate" destination="JAL-Qe-yK1" id="Gkg-BR-gbb"/>
                                 </connections>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose Article" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uL-2i-rjb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose Category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uL-2i-rjb">
                                 <rect key="frame" x="23" y="207" width="288" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -53,7 +53,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Vy3-Rr-bsF"/>
+                    <tabBarItem key="tabBarItem" title="Category Selection" id="Vy3-Rr-bsF"/>
                     <connections>
                         <outlet property="currentArticleLabel" destination="Dt5-SP-Aac" id="AqD-jF-hEs"/>
                         <outlet property="spinner" destination="KNI-SX-f4m" id="rLc-L8-Yi3"/>
@@ -63,7 +63,7 @@
             </objects>
             <point key="canvasLocation" x="2000.625" y="742.6056338028169"/>
         </scene>
-        <!--Item 1-->
+        <!--Home-->
         <scene sceneID="bqI-yO-I3u">
             <objects>
                 <viewController id="D1Y-Gs-ner" customClass="ViewController" customModule="GreekPractice" customModuleProvider="target" sceneMemberID="viewController">
@@ -92,11 +92,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXd-w2-Jqu">
-                                <rect key="frame" x="137" y="389" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLk-QK-blo">
                                 <rect key="frame" x="16" y="234" width="288" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -121,7 +116,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="mGR-mh-9g4"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="mGR-mh-9g4"/>
                     <connections>
                         <outlet property="correctLabel" destination="qLk-QK-blo" id="a5K-Rq-XKj"/>
                         <outlet property="currentCategoryLabel" destination="kV1-q3-MmJ" id="uFa-7b-YaE"/>

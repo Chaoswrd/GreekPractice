@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63085A4E1F3F6E1500E6BCF9 /* PresentFirstDeclensionVerb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63085A4D1F3F6E1500E6BCF9 /* PresentFirstDeclensionVerb.txt */; };
+		630AF9AF1F40651A003832BD /* PresentMediopassiveFirstDeclensionVerb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 630AF9AE1F40651A003832BD /* PresentMediopassiveFirstDeclensionVerb.txt */; };
 		6319E27D1F3BB74000385EAC /* SpinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6319E27C1F3BB74000385EAC /* SpinController.swift */; };
 		6351B1F01F38B93C00578E3B /* IndefiniteArticles.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6351B1EF1F38B93C00578E3B /* IndefiniteArticles.txt */; };
 		63958E971F37B0B900E258E5 /* FileImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63958E961F37B0B900E258E5 /* FileImporter.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63085A4D1F3F6E1500E6BCF9 /* PresentFirstDeclensionVerb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PresentFirstDeclensionVerb.txt; path = ../PresentFirstDeclensionVerb.txt; sourceTree = "<group>"; };
+		630AF9AE1F40651A003832BD /* PresentMediopassiveFirstDeclensionVerb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PresentMediopassiveFirstDeclensionVerb.txt; path = ../PresentMediopassiveFirstDeclensionVerb.txt; sourceTree = "<group>"; };
 		6319E27C1F3BB74000385EAC /* SpinController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpinController.swift; path = ../SpinController.swift; sourceTree = "<group>"; };
 		6351B1EF1F38B93C00578E3B /* IndefiniteArticles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IndefiniteArticles.txt; path = ../IndefiniteArticles.txt; sourceTree = "<group>"; };
 		63958E961F37B0B900E258E5 /* FileImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileImporter.swift; path = ../FileImporter.swift; sourceTree = "<group>"; };
@@ -45,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		630AF9AD1F4064AB003832BD /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				63958E981F37B12200E258E5 /* DefiniteArticles.txt */,
+				6351B1EF1F38B93C00578E3B /* IndefiniteArticles.txt */,
+			);
+			name = Articles;
+			sourceTree = "<group>";
+		};
 		63F7C0FA1F3117D1008BD228 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +92,9 @@
 		63F7C1221F311973008BD228 /* Content Classes */ = {
 			isa = PBXGroup;
 			children = (
-				63958E981F37B12200E258E5 /* DefiniteArticles.txt */,
-				6351B1EF1F38B93C00578E3B /* IndefiniteArticles.txt */,
+				630AF9AE1F40651A003832BD /* PresentMediopassiveFirstDeclensionVerb.txt */,
+				63085A4D1F3F6E1500E6BCF9 /* PresentFirstDeclensionVerb.txt */,
+				630AF9AD1F4064AB003832BD /* Articles */,
 				63F7C1201F311906008BD228 /* LangSys.swift */,
 				63958E961F37B0B900E258E5 /* FileImporter.swift */,
 			);
@@ -151,7 +165,9 @@
 				6351B1F01F38B93C00578E3B /* IndefiniteArticles.txt in Resources */,
 				63F7C10E1F3117D1008BD228 /* Assets.xcassets in Resources */,
 				63F7C10C1F3117D1008BD228 /* Main.storyboard in Resources */,
+				63085A4E1F3F6E1500E6BCF9 /* PresentFirstDeclensionVerb.txt in Resources */,
 				63958E991F37B12200E258E5 /* DefiniteArticles.txt in Resources */,
+				630AF9AF1F40651A003832BD /* PresentMediopassiveFirstDeclensionVerb.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
