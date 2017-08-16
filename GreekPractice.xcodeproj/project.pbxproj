@@ -13,6 +13,8 @@
 		6351B1F01F38B93C00578E3B /* IndefiniteArticles.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6351B1EF1F38B93C00578E3B /* IndefiniteArticles.txt */; };
 		63958E971F37B0B900E258E5 /* FileImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63958E961F37B0B900E258E5 /* FileImporter.swift */; };
 		63958E991F37B12200E258E5 /* DefiniteArticles.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63958E981F37B12200E258E5 /* DefiniteArticles.txt */; };
+		63DFE9C11F43952000A2685B /* PresentSecondDeclensionVerbFirst.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63DFE9C01F43952000A2685B /* PresentSecondDeclensionVerbFirst.txt */; };
+		63DFE9C31F4395CB00A2685B /* PresentSecondDeclensionVerbSecond.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63DFE9C21F4395CB00A2685B /* PresentSecondDeclensionVerbSecond.txt */; };
 		63F7C1071F3117D1008BD228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7C1061F3117D1008BD228 /* AppDelegate.swift */; };
 		63F7C1091F3117D1008BD228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7C1081F3117D1008BD228 /* ViewController.swift */; };
 		63F7C10C1F3117D1008BD228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F7C10A1F3117D1008BD228 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 		6351B1EF1F38B93C00578E3B /* IndefiniteArticles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IndefiniteArticles.txt; path = ../IndefiniteArticles.txt; sourceTree = "<group>"; };
 		63958E961F37B0B900E258E5 /* FileImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileImporter.swift; path = ../FileImporter.swift; sourceTree = "<group>"; };
 		63958E981F37B12200E258E5 /* DefiniteArticles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DefiniteArticles.txt; path = ../DefiniteArticles.txt; sourceTree = "<group>"; };
+		63DFE9C01F43952000A2685B /* PresentSecondDeclensionVerbFirst.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PresentSecondDeclensionVerbFirst.txt; path = ../PresentSecondDeclensionVerbFirst.txt; sourceTree = "<group>"; };
+		63DFE9C21F4395CB00A2685B /* PresentSecondDeclensionVerbSecond.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PresentSecondDeclensionVerbSecond.txt; path = ../PresentSecondDeclensionVerbSecond.txt; sourceTree = "<group>"; };
 		63F7C1031F3117D1008BD228 /* GreekPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreekPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F7C1061F3117D1008BD228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63F7C1081F3117D1008BD228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 		63F7C1221F311973008BD228 /* Content Classes */ = {
 			isa = PBXGroup;
 			children = (
+				63DFE9C21F4395CB00A2685B /* PresentSecondDeclensionVerbSecond.txt */,
+				63DFE9C01F43952000A2685B /* PresentSecondDeclensionVerbFirst.txt */,
 				630AF9AE1F40651A003832BD /* PresentMediopassiveFirstDeclensionVerb.txt */,
 				63085A4D1F3F6E1500E6BCF9 /* PresentFirstDeclensionVerb.txt */,
 				630AF9AD1F4064AB003832BD /* Articles */,
@@ -161,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DFE9C11F43952000A2685B /* PresentSecondDeclensionVerbFirst.txt in Resources */,
 				63F7C1111F3117D1008BD228 /* LaunchScreen.storyboard in Resources */,
 				6351B1F01F38B93C00578E3B /* IndefiniteArticles.txt in Resources */,
 				63F7C10E1F3117D1008BD228 /* Assets.xcassets in Resources */,
@@ -168,6 +175,7 @@
 				63085A4E1F3F6E1500E6BCF9 /* PresentFirstDeclensionVerb.txt in Resources */,
 				63958E991F37B12200E258E5 /* DefiniteArticles.txt in Resources */,
 				630AF9AF1F40651A003832BD /* PresentMediopassiveFirstDeclensionVerb.txt in Resources */,
+				63DFE9C31F4395CB00A2685B /* PresentSecondDeclensionVerbSecond.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

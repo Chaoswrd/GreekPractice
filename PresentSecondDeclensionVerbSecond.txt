@@ -1,0 +1,6 @@
+i lead, οδηγώ
+you(singular) lead, οδηγείς
+it leads, οδηγεί
+we lead, οδηγούμε
+you(plural) lead, οδηγείτε
+they lead, οδηγούν

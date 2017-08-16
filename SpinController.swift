@@ -12,7 +12,7 @@ class SpinController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var spinner: UIPickerView!
     @IBOutlet weak var currentArticleLabel: UILabel!
     
-    var pickerDataSource = ["DefiniteArticles", "IndefiniteArticles", "PresentFirstDeclensionVerb", "PresentMediopassiveFirstDeclensionVerb"]
+    var pickerDataSource = ["DefiniteArticles", "IndefiniteArticles", "PresentFirstDeclensionVerb", "PresentMediopassiveFirstDeclensionVerb", "PresentSecondDeclensionVerbFirst", "PresentSecondDeclensionVerbSecond"]
     
 
     override func viewDidLoad() {
